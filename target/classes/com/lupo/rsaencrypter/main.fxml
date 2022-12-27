@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextArea?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="600.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.lupo.rsaencrypter.MainController">
+   <children>
+      <Text layoutX="40.0" layoutY="100.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 80; -fx-font-weight: bold;" text="RSA Encrypter" />
+      <Text layoutX="106.0" layoutY="169.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 30;" text="Keep Your Messages Secure!" />
+      <Text layoutX="106.0" layoutY="364.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 30;" />
+      <Label layoutX="231.0" layoutY="352.0" style="-fx-font-size: 30; -fx-text-fill: grey;" text="Public Key" />
+      <JFXTextArea fx:id="publicKeyTextArea" editable="false" layoutX="58.0" layoutY="419.0" prefHeight="145.0" prefWidth="484.0" />
+      <JFXButton buttonType="RAISED" layoutX="69.0" layoutY="224.0" onAction="#openEncrypter" style="-fx-background-color: #007FFF; -fx-font-size: 40;" text="Encrypt" />
+      <JFXButton buttonType="RAISED" layoutX="330.0" layoutY="224.0" onAction="#openDecrypter" style="-fx-background-color: #007FFF; -fx-font-size: 40;" text="Decrypt" />
+   </children>
+</Pane>

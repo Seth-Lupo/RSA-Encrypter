@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXSpinner?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Text?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="600.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <JFXSpinner layoutX="212.0" layoutY="334.0" prefHeight="176.0" prefWidth="176.0" />
+      <Text layoutX="119.0" layoutY="130.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 80; -fx-font-weight: normal;" text="Gathering" />
+      <Text layoutX="136.0" layoutY="244.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 80; -fx-font-weight: normal;" text="Key Pairs" />
+   </children>
+</Pane>
